@@ -1,26 +1,48 @@
 orgs:
   kloops-io:
+    name: KLoops
+    company: KLoops
+    description: The next gen CI/CD platform
+    email: charled.breteche@gmail.com
+    location: https://kloops.io
+    billing_email: charled.breteche@gmail.com
+    default_repository_permission: read
+    has_organization_projects: false
+    has_repository_projects: false
+    members_can_create_repositories: false
     admins:
       - eddycharly
       - kloops-bot
-    billing_email: charled.breteche@gmail.com
-    company: ''
-    default_repository_permission: read
-    description: ''
-    email: ''
-    has_organization_projects: true
-    has_repository_projects: true
-    location: ''
-    members_can_create_repositories: false
-    name: KLoops
     members:
       - papiveron
     repos:
       .github:
+        description: KLoops organization default health files
+        homepage: https://kloops.io
+        private: false
+        has_issues: true
+        has_projects: false
+        has_wiki: false
+        default_branch: master
+        allow_squash_merge: false
         allow_merge_commit: false
-        allow_rebase_merge: false
+        allow_rebase_merge: true
+        archived: false
+        # previously
         on_create:
           auto_init: true
       community:
+        description: KLoops community repository
+        homepage: https://kloops.io
+        private: false
+        has_issues: true
+        has_projects: false
+        has_wiki: false
+        default_branch: master
+        allow_squash_merge: false
         allow_merge_commit: false
-        allow_rebase_merge: false
+        allow_rebase_merge: true
+        archived: false
+        # previously
+        on_create:
+          auto_init: true
