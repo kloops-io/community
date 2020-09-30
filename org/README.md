@@ -5,7 +5,7 @@ To add or remove members and admins, make changes to this file.
 
 This system uses [peribolos](https://github.com/kubernetes/test-infra/tree/master/prow/cmd/peribolos) to manage the org configuration.
 
-Changes to this configuration are applied automatically via a [GitHub action](TODO).
+Changes to this configuration are applied automatically via a [GitHub action](.github/workflows/peribolos.yaml).
 
 ## Requirements
 

@@ -2,7 +2,8 @@ orgs:
   kloops-io:
     admins:
       - eddycharly
-    # billing_email: info@cd.foundation
+      - kloops-bot
+    billing_email: charled.breteche@gmail.com
     company: ''
     default_repository_permission: read
     description: ''
@@ -10,4 +11,12 @@ orgs:
     has_organization_projects: true
     has_repository_projects: true
     location: ''
-    members: []
+    members_can_create_repositories: false
+    name: KLoops
+    repos:
+      community:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+    members:
+      # - eddycharly
+      # - kloops-bot
