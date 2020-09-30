@@ -16,6 +16,11 @@ orgs:
     members:
       - papiveron
     repos:
+      .github:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        on_create:
+          auto_init: true
       community:
         allow_merge_commit: false
         allow_rebase_merge: false
