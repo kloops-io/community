@@ -13,11 +13,9 @@ orgs:
     location: ''
     members_can_create_repositories: false
     name: KLoops
+    members:
+      - papiveron
     repos:
       community:
         allow_merge_commit: false
         allow_rebase_merge: false
-    members:
-      # - eddycharly
-      # - kloops-bot
-      - papiveron
