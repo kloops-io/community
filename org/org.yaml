@@ -1,0 +1,13 @@
+orgs:
+  kloops-io:
+    admins:
+      - eddycharly
+    # billing_email: info@cd.foundation
+    company: ''
+    default_repository_permission: read
+    description: ''
+    email: ''
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ''
+    members: []
