@@ -17,6 +17,6 @@ docker run --rm -v ${PWD}:/etc/community gcr.io/k8s-prow/peribolos:latest \
   --min-admins=2 \
   --required-admins=eddycharly \
   --required-admins=kloops-bot \
-  --confirm=false
+  --confirm=true
 
 rm token
