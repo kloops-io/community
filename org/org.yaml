@@ -46,18 +46,3 @@ orgs:
         # previously
         on_create:
           auto_init: true
-      kloops-io:
-        description: KLoops profile repository
-        homepage: https://kloops.io
-        private: false
-        has_issues: true
-        has_projects: false
-        has_wiki: false
-        default_branch: master
-        allow_squash_merge: false
-        allow_merge_commit: false
-        allow_rebase_merge: true
-        archived: false
-        # previously
-        on_create:
-          auto_init: true
