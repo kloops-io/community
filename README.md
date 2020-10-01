@@ -12,3 +12,7 @@ See our standards regarding:
 - [Security policy](https://github.com/kloops-io/.github/SECURITY.md)
 - [License](LICENSE)
 - [Getting help](https://github.com/kloops-io/.github/SUPPORT.md)
+
+Find out about our processes:
+
+* [Github organization management](org/README.md), including [requirements to join the organization](org/README.md#requirements)
