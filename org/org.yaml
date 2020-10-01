@@ -4,7 +4,7 @@ orgs:
     company: KLoops
     description: The next gen CI/CD platform
     email: charled.breteche@gmail.com
-    location: https://kloops.io
+    location: Paris, France
     billing_email: charled.breteche@gmail.com
     default_repository_permission: read
     has_organization_projects: false
