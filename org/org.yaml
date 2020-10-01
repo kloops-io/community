@@ -15,6 +15,14 @@ orgs:
       - kloops-bot
     members:
       - papiveron
+    teams:
+      kloops:
+        description: KLoops team
+        maintainers:
+          - eddycharly
+        members:
+          - papiveron
+        privacy: closed
     repos:
       .github:
         description: KLoops organization default health files
@@ -28,7 +36,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: true
         archived: false
-        # previously
         on_create:
           auto_init: true
       community:
@@ -43,7 +50,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: true
         archived: false
-        # previously
         on_create:
           auto_init: true
       kloops:
@@ -58,6 +64,5 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: true
         archived: false
-        # previously
         on_create:
           auto_init: true
